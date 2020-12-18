@@ -63,7 +63,7 @@ while True:
                 if i+1 < len(position):
                     # Draw the trajectory
                     cv2.line(frame, position[i], position[i+1], (255, 0, 0), 2)
-            cv2.line(frame, (200, 200), (600, 600), (255, 0, 0), 3)
+            
 
         # Count frame rate of tracker
         fps.update()
