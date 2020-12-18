@@ -23,3 +23,6 @@ default is "csrt"
 
 Example command: roi track.py --video videos/test0.mp4 --output output/test0.avi --tracker csrt
 
+Press "s" to stop the video and choose your object to track by the rectangle.
+Press "Enter" to resume
+
