@@ -1,4 +1,4 @@
-# object-tracking-by-video-
+# Object tracking by video
 
 OpenCV 3.x 
 
