@@ -27,10 +27,13 @@ Example command: -python roi track.py --video videos/test0.mp4 --output output/t
 Press "s" to stop the video and choose object to track.
 Press "Enter" to resume.
 
+
 Object tracking by YOLOv3 deep learning detection and OpenCV tracker.
 
 YOLOv3 were trained by Darknet team on COCO dataset. https://pjreddie.com/darknet/yolo/
+
 It consists of 3 files: coco.names cotaining all labels, yolov3.config, and yolov3.weights.
+
 Default tracker is kcf.
 
 Command: -python yolo_object_tracker.py --video videos/cat1.mp4 --output output/cat1.avi --label cat 
