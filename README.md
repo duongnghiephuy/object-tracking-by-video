@@ -30,7 +30,7 @@ Press "Enter" to resume.\
 
 ## Object tracking by YOLOv3 deep learning detection and OpenCV tracker.
 
-YOLOv3 were trained by Darknet team on COCO dataset. https://pjreddie.com/darknet/yolo/
+YOLOv3 was trained by Darknet team on COCO dataset. https://pjreddie.com/darknet/yolo/
 
 It consists of 3 files: coco.names cotaining all labels, yolov3.config, and yolov3.weights.
 
@@ -38,7 +38,13 @@ Default tracker is kcf.
 
 Command: -python yolo_object_tracker.py --video videos/cat1.mp4 --output output/cat1.avi --label cat 
 
+## Object tracking by SSD deep learning detection and OpenCV tracker
 
+SSD is more precise than YOLOv3.
+SSD caffe model was trained by weiliu89 on COCO dataset https://github.com/weiliu89/caffe/tree/ssd
+It consists of 3 files: coco.names cotaining all labels, deploy.prototxt, and VGG_coco_SSD.caffemodel
+
+Command: -python yolo_object_tracker.py --video videos/dog.mp4 --output output/dog.avi --label dog --tracker csrt 
 
 
 
