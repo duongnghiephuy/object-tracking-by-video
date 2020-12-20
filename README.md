@@ -2,7 +2,7 @@
 
 OpenCV 3.x 
 
-Single object tracking by videos by ROI
+##Single object tracking by videos by ROI
 
 Trackers: 
 
@@ -25,10 +25,10 @@ default is "csrt"
 Example command: -python roi track.py --video videos/test0.mp4 --output output/test0.avi --tracker csrt
 
 Press "s" to stop the video and choose object to track.
-Press "Enter" to resume.
+Press "Enter" to resume. <br />
 
 
-Object tracking by YOLOv3 deep learning detection and OpenCV tracker.
+##Object tracking by YOLOv3 deep learning detection and OpenCV tracker.
 
 YOLOv3 were trained by Darknet team on COCO dataset. https://pjreddie.com/darknet/yolo/
 
