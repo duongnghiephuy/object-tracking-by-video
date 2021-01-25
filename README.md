@@ -49,6 +49,7 @@ Command: -python yolo_object_tracker.py --video videos/dog.mp4 --output output/d
 ## Object tracking by color 
 
 Specify lower and upper color in HSV color space then run. It's important to observe bit mask result of the specified color range. 
+Objects of the same color which is not the interest can be cut out by shaping the image.
 
 
 
