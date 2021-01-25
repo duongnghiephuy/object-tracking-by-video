@@ -46,8 +46,9 @@ It consists of 3 files: coco.names cotaining all labels, deploy.prototxt, and VG
 
 Command: -python yolo_object_tracker.py --video videos/dog.mp4 --output output/dog.avi --label dog --tracker csrt 
 
+## Object tracking by color 
 
-
+Specify lower and upper color in HSV color space then run. It's important to observe bit mask result of the specified color range. 
 
 
 
