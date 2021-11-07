@@ -44,7 +44,7 @@ SSD is more precise than YOLOv3.
 SSD caffe model was trained by weiliu89 on COCO dataset https://github.com/weiliu89/caffe/tree/ssd
 It consists of 3 files: coco.names cotaining all labels, deploy.prototxt, and VGG_coco_SSD.caffemodel
 
-Command: -python yolo_object_tracker.py --video videos/dog.mp4 --output output/dog.avi --label dog --tracker csrt 
+Command: -python ssd_object_tracker.py --video videos/dog.mp4 --output output/dog.avi --label dog --tracker csrt 
 
 ## Object tracking by color 
 
