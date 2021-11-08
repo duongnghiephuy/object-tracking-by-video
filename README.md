@@ -28,7 +28,7 @@ Press "s" to stop the video and choose object to track.
 Press "Enter" to resume.\
 
 
-## Object tracking by YOLOv3 deep learning detection and OpenCV tracker.
+## Single object tracking by YOLOv3 deep learning detection and OpenCV tracker.
 
 YOLOv3 was trained by Darknet team on COCO dataset. https://pjreddie.com/darknet/yolo/
 
@@ -38,7 +38,7 @@ Default tracker is kcf.
 
 Command: `-python yolo_object_tracker.py --video videos/cat1.mp4 --output output/cat1.avi --label cat`
 
-## Object tracking by SSD deep learning detection and OpenCV tracker
+## Single object tracking by SSD deep learning detection and OpenCV tracker
 
 SSD is more precise than YOLOv3.
 SSD caffe model was trained by weiliu89 on COCO dataset https://github.com/weiliu89/caffe/tree/ssd
@@ -46,12 +46,13 @@ It consists of 3 files: coco.names cotaining all labels, deploy.prototxt, and VG
 
 Command: `-python ssd_object_tracker.py --video videos/dog.mp4 --output output/dog.avi --label dog --tracker csrt`
 
-## Object tracking by color 
+## Single object tracking by color 
 
 Specify lower and upper color in HSV color space then run. It's important to observe bit mask result of the specified color range. 
 Objects of the same color which is not of interest can be cut out by shaping the image.
 
-
+## Multiple objects tracking: trying 
+## Tracking distance during COVID: trying 
 
 
 
