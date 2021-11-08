@@ -1,6 +1,6 @@
 # Object tracking by video
 
-OpenCV 3.x 
+Simple execution with OpenCV 3.x 
 
 ## Single object tracking by videos by ROI
 
@@ -22,7 +22,7 @@ Trackers:
 
 default is "csrt"
 
-Example command: -python roi track.py --video videos/test0.mp4 --output output/test0.avi --tracker csrt
+Example command: `-python roi track.py --video videos/test0.mp4 --output output/test0.avi --tracker csrt`
 
 Press "s" to stop the video and choose object to track.
 Press "Enter" to resume.\
