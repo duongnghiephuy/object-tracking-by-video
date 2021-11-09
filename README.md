@@ -36,7 +36,12 @@ It consists of 3 files: coco.names cotaining all labels, yolov3.config, and yolo
 
 Default tracker is kcf.
 
-Command: `-python yolo_object_tracker.py --video videos/cat1.mp4 --output output/cat1.avi --label cat`
+Command: `-python yolo_object_tracker.py --video videos/cat1.mp4 --yolo yolo-coco --output output/cat1.avi --label cat`
+
+
+
+https://user-images.githubusercontent.com/55075721/140859630-f1c7779d-409c-488f-a02d-b78fcf92581a.mp4
+
 
 ## Single object tracking by SSD deep learning detection and OpenCV tracker
 
@@ -44,7 +49,13 @@ SSD is more precise than YOLOv3.
 SSD caffe model was trained by weiliu89 on COCO dataset https://github.com/weiliu89/caffe/tree/ssd
 It consists of 3 files: coco.names cotaining all labels, deploy.prototxt, and VGG_coco_SSD.caffemodel
 
-Command: `-python ssd_object_tracker.py --video videos/dog.mp4 --output output/dog.avi --label dog --tracker csrt`
+Command: `-python ssd_object_tracker.py --video videos/dog.mp4 --ssd ssd --output output/dog.avi --label dog --tracker csrt`
+
+
+
+https://user-images.githubusercontent.com/55075721/140859077-f48aa6e5-f416-427b-888c-546c91db5f46.mp4
+
+
 
 ## Single object tracking by color 
 
