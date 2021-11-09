@@ -39,8 +39,8 @@ Default tracker is kcf.
 Command: `-python yolo_object_tracker.py --video videos/cat1.mp4 --yolo yolo-coco --output output/cat1.avi --label cat`
 
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/55075721/140869154-2608efb0-f600-46ea-85b1-950b9d6b72cf.gif)
 
-https://user-images.githubusercontent.com/55075721/140859630-f1c7779d-409c-488f-a02d-b78fcf92581a.mp4
 
 
 ## Single object tracking by SSD deep learning detection and OpenCV tracker
@@ -51,9 +51,9 @@ It consists of 3 files: coco.names cotaining all labels, deploy.prototxt, and VG
 
 Command: `-python ssd_object_tracker.py --video videos/dog.mp4 --ssd ssd --output output/dog.avi --label dog --tracker csrt`
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/55075721/140869268-b0b9d244-c400-4eab-bbbf-06a0c603e9a0.gif)
 
 
-https://user-images.githubusercontent.com/55075721/140859077-f48aa6e5-f416-427b-888c-546c91db5f46.mp4
 
 
 
